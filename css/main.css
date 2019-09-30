@@ -67,7 +67,7 @@ body {
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
-	color: #333333;
+	color: #6e6e6e;
 }
 
 /* ------------------------------------------------------------------- 
@@ -75,7 +75,7 @@ body {
  * ------------------------------------------------------------------- */
 a,
 a:visited {
-	color: #057f78;
+	color: darkgreen;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -85,7 +85,7 @@ a:visited {
 
 a:hover,
 a:focus {
-	color: #000000;
+	color: #636161;
 }
 
 /* ===================================================================
@@ -228,7 +228,7 @@ blockquote:before {
 	font-size: 8rem;
 	line-height: 0px;
 	margin: 0;
-	color: #333;
+	color: rgb(104, 103, 103);
 	font-family: arial, sans-serif;
 	position: absolute;
 	top: 3rem;
@@ -315,7 +315,7 @@ dfn[title] {
 
 mark {
 	background: #FFF49B;
-	color: #000;
+	color: rgb(114, 114, 114);
 }
 
 hr {
@@ -370,7 +370,7 @@ ul.disc li::before {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #034e4a;
+	background: darkgreen;
 	position: absolute;
 	left: -17px;
 	top: 11px;
@@ -379,7 +379,7 @@ ul.disc li::before {
 
 dt {
 	margin: 0;
-	color: #034e4a;
+	color: darkgreen;
 }
 
 dd {
@@ -578,8 +578,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	color: #000000;
-	border-color: #034e4a;
+	color: white;
+	border-color: darkgreen;
 }
 
 label,
@@ -587,7 +587,7 @@ legend {
 	font-family: "roboto-bold", sans-serif;
 	font-size: 1.6rem;
 	margin-bottom: .6rem;
-	color: black;
+	color: white;
 	display: block;
 }
 
@@ -690,7 +690,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	background: #034e4a;
+	background: darkgreen;
 	color: #FFFFFF;
 }
 
@@ -747,8 +747,8 @@ button.stroke.large,
 
 button.stroke:hover,
 .button.stroke:hover {
-	border: 3px solid #034e4a;
-	color: #034e4a;
+	border: 3px solid darkgreen;
+	color: darkgreen;
 }
 
 button::-moz-focus-inner,
@@ -914,7 +914,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-	color: #034e4a;
+	color: darkgreen;
 }
 
 .stats-tabs li a em {
@@ -1009,7 +1009,7 @@ header .social-links ul li a:visited {
 
 header .social-links ul li a:hover,
 header .social-links ul li a:focus {
-	color: #057f78;
+	color: darkgreen;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1463,7 +1463,7 @@ header .social-links ul li a:focus {
 	background-size: cover;
 	padding: 10.2rem 0 9rem;
 	position: relative;
-	color: rgba(17, 17, 17, 0.7);
+	color: white;
 }
 
 #info .info-overlay {
@@ -1472,8 +1472,8 @@ header .social-links ul li a:focus {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #FFFFFF;
-	opacity: .7;
+	background-color: darkolivegreen;
+	opacity: .5;
 }
 
 /* tabs 
@@ -1497,10 +1497,10 @@ header .social-links ul li a:focus {
 	background: transparent;
 	font-size: 1.4rem;
 	letter-spacing: .2rem;
-	color: rgba(17, 17, 17, 0.6);
+	color: rgb(231, 231, 231);
 	padding: .9rem 3rem;
 	margin: 0 1rem 0 0;
-	border: 1px solid rgba(0, 0, 0, 0.15);
+	border: 1px solid rgba(255, 255, 255, 0.15);
 	cursor: pointer;
 }
 
@@ -1670,7 +1670,7 @@ header .social-links ul li a:focus {
 .about-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
-	color: #034e4a;
+	color: yellow;
 }
 
 .about-list .icon i {
@@ -1681,6 +1681,10 @@ header .social-links ul li a:focus {
 	font-size: 1.7rem;
 	line-height: 1.765;
 	margin-bottom: 1.8rem;
+}
+
+.text-white {
+	color: white !important;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1739,7 +1743,7 @@ header .social-links ul li a:focus {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #034e4a;
+	background: darkgreen;
 }
 
 #tab-contact .form-field label::after {
@@ -1749,7 +1753,7 @@ header .social-links ul li a:focus {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #034e4a;
+	border-right: 5px solid darkgreen;
 	content: "";
 }
 
@@ -1770,7 +1774,7 @@ header .social-links ul li a:focus {
 }
 
 #tab-contact #message-success {
-	color: #034e4a;
+	color: darkgreen
 }
 
 #tab-contact #message-warning i,
@@ -1791,7 +1795,7 @@ header .social-links ul li a:focus {
 #submit-loader .text-loader {
 	display: none;
 	font-family: "roboto-black", sans-serif;
-	color: #034e4a;
+	color: darkgreen;
 	letter-spacing: .3rem;
 	text-transform: uppercase;
 }
@@ -1819,7 +1823,7 @@ header .social-links ul li a:focus {
 .s-loader>div {
 	width: 1rem;
 	height: 1rem;
-	background-color: #034e4a;
+	background-color: darkgreen;
 	border-radius: 100%;
 	display: inline-block;
 	margin-right: .9rem;
@@ -1889,7 +1893,7 @@ header .social-links ul li a:focus {
  *
  * ------------------------------------------------------------------- */
 #cta {
-	background: #034e4a;
+	background: darkgreen;
 	padding-top: 9rem;
 	padding-bottom: 7.8rem;
 	text-align: center;
@@ -1993,7 +1997,7 @@ footer .footer-social-list a:visited {
 
 footer .footer-social-list a:hover,
 footer .footer-social-list a:focus {
-	color: #057f78;
+	color: darkgreen;
 }
 
 footer .footer-social-list li {
@@ -2028,7 +2032,7 @@ footer .footer-bottom a:visited {
 
 footer .footer-bottom a:hover,
 footer .footer-bottom a:focus {
-	color: #034e4a;
+	color: darkgreen;
 }
 
 footer .footer-bottom .footer-logo {
@@ -2086,7 +2090,7 @@ footer .back-to-top {
 
 footer .back-to-top a {
 	display: block;
-	background: #034e4a;
+	background: darkgreen;
 	padding: 1.2rem 3rem 1.5rem;
 	color: #FFFFFF;
 }
