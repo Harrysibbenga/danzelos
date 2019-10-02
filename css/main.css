@@ -1658,7 +1658,8 @@ header .social-links ul li a:focus {
  * ------------------------------------------------------------------- */
 .about-list {
 	margin-top: 1.2rem;
-	text-align: center;
+	padding-right: 40px;
+	text-align: right;
 }
 
 .about-list .item {
@@ -1680,6 +1681,7 @@ header .social-links ul li a:focus {
 	font-size: 1.7rem;
 	line-height: 1.765;
 	margin-bottom: 1.8rem;
+
 }
 
 .text-white {
@@ -1698,6 +1700,10 @@ header .social-links ul li a:focus {
 
 	.about-list .item {
 		padding: 0 15px;
+	}
+
+	.about-list {
+		text-align: center
 	}
 }
 
