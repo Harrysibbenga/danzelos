@@ -403,7 +403,6 @@ pre,
 blockquote,
 figure,
 table,
-p,
 ul,
 ol,
 dl,
@@ -411,6 +410,10 @@ form,
 .fluid-video-wrapper,
 .ss-custom-select {
 	margin-bottom: 3rem;
+}
+
+p {
+	margin-bottom: 0.2rem;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1539,7 +1542,7 @@ header .social-links ul li a:focus {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 4.2rem;
+	margin-bottom: 10rem;
 }
 
 #info .tabs-wrap .tab-entry-intro h1 {
