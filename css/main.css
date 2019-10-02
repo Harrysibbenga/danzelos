@@ -1471,7 +1471,7 @@ header .social-links ul li a:focus {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: darkolivegreen;
+	background-color: black;
 	opacity: 0.5;
 }
 
@@ -1657,9 +1657,9 @@ header .social-links ul li a:focus {
  * tab about - (_layout.css)  
  * ------------------------------------------------------------------- */
 .about-list {
-	margin-top: 1.2rem;
-	padding-right: 40px;
-	text-align: right;
+	margin-top: 9.2rem;
+	padding-left: 40px;
+	text-align: left;
 }
 
 .about-list .item {
@@ -1686,6 +1686,10 @@ header .social-links ul li a:focus {
 
 .text-white {
 	color: white !important;
+}
+
+.circular {
+	border-radius: 100%;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1942,7 +1946,7 @@ header .social-links ul li a:focus {
 	display: block;
 	height: 3px;
 	width: 80px;
-	background: rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.5);
 	position: absolute;
 	left: 50%;
 	bottom: 0;
