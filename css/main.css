@@ -972,6 +972,11 @@ header .logo a {
 	transition: all 0.5s ease-in-out;
 }
 
+.img-dim {
+	width: 300px;
+	margin-top: 24px;
+}
+
 /* ------------------------------------------------------------------- 
  * header social - (_layout.css)  
  * ------------------------------------------------------------------- */
@@ -2097,7 +2102,7 @@ footer .back-to-top {
 
 footer .back-to-top a {
 	display: block;
-	background: rgb(133, 255, 23);
+	background: rgb(133, 255, 23, 0.7);
 	padding: 1.2rem 3rem 1.5rem;
 	color: #ffffff;
 }
