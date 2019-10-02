@@ -2009,7 +2009,7 @@ footer .footer-social-list a:visited {
 
 footer .footer-social-list a:hover,
 footer .footer-social-list a:focus {
-	color: rgb(133, 255, 23);
+	color: rgb(133, 255, 23, 0.7);
 }
 
 footer .footer-social-list li {
@@ -2044,7 +2044,7 @@ footer .footer-bottom a:visited {
 
 footer .footer-bottom a:hover,
 footer .footer-bottom a:focus {
-	color: rgb(133, 255, 23);
+	color: rgb(133, 255, 23, 0.7);
 }
 
 footer .footer-bottom .footer-logo {
