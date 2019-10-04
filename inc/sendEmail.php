@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'harry@torquetogether.com';
+$siteOwnersEmail = 'dan@danzelos.com';
 
 
 if ($_POST) {
